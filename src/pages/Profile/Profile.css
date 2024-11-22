@@ -1,0 +1,90 @@
+/* Profile Page Layout */
+.profile-container {
+    padding: 20px;
+  }
+  
+  .profile-content {
+    display: flex;
+    justify-content: space-between; /* Space between the left and right side */
+  }
+  
+  .profile-left, .profile-right {
+    width: 48%; /* Each section takes 48% of the width, leaving space in between */
+  }
+  
+  .profile-left {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .profile-info h3 {
+    font-size: 1.5rem;
+  }
+  
+  .profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .logout-btn {
+    margin-top: 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .profile-right {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .profile-right h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  .profile-right ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-right li {
+    margin-bottom: 10px;
+  }
+  
+  .profile-right button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-right button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .profile-content {
+      flex-direction: column;
+    }
+  
+    .profile-left, .profile-right {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

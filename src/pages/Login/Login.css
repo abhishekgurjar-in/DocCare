@@ -1,0 +1,98 @@
+/* login.css */
+
+/* Container for the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6; /* Light gray background */
+  }
+  
+  /* Form styles */
+  .login-form {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Header */
+  .login-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  /* Input group */
+  .input-group {
+    margin-bottom: 16px;
+  }
+  
+  /* Label */
+  .input-label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4b5563;
+    margin-bottom: 8px;
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+    color: #333;
+    transition: border-color 0.2s ease;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #3b82f6;
+  }
+  
+  /* Submit button container */
+  .submit-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  /* Submit button */
+  .submit-btn {
+    background-color: #3b82f6;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 16px;
+    border-radius: 4px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Register link */
+  .register-link {
+    font-size: 14px;
+    color: #6b7280;
+    text-align: center;
+    margin-top: 16px;
+  }
+  
+  .register-link-text {
+    color: #3b82f6;
+    text-decoration: underline;
+  }
+  
+  /* Google sign-in section */

@@ -1,0 +1,28 @@
+/* Header.css */
+.header-nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  .header-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav li {
+    padding: 5px 10px;
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .header-nav a:hover {
+    color: #ffcc00;
+  }
+  

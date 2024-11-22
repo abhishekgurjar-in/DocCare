@@ -1,0 +1,119 @@
+/* Signup Page Styles */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7fafc;
+}
+
+.signup-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 24rem;
+}
+
+.signup-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.input-field {
+  margin-bottom: 1.25rem;
+}
+
+.input-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4a5568;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.input-box {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  color: #4a5568;
+  outline: none;
+}
+
+.input-box:focus {
+  border-color: #3182ce;
+}
+
+.submit-button {
+  margin-top: 1.5rem;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 1rem;
+  background-color: #3182ce;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.375rem;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #2b6cb0;
+}
+
+.redirect-link {
+  font-size: 0.875rem;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.link-to-login {
+  color: #3182ce;
+  text-decoration: none;
+}
+
+.link-to-login:hover {
+  text-decoration: underline;
+}
+
+/* Signup.css */
+
+/* Style for Google Sign-In button */
+.google-sign-in {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-sign-in button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4285f4; /* Google's blue */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.google-sign-in button:hover {
+  background-color: #357ae8; /* Slightly darker blue for hover effect */
+}
+
+/* Google icon (if you want to add an icon next to the button text) */
+.google-icon {
+  width: 30px;
+  height: 30px;
+}
