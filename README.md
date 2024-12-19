@@ -23,7 +23,7 @@ Doc Care is an online platform that allows users to book appointments with healt
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/abhishekgurjar-in/doc-care.git
+git clone https://github.com/abhishekboadgurjar/doc-care.git
 cd doc-care
 ```
 
@@ -107,7 +107,7 @@ We welcome contributions! Feel free to fork the repository and create a pull req
 
 
 ## Author
-**Abhishek Gurjar** is a dedicated web developer passionate about creating practical and functional web applications. Check out more of his projects on [GitHub](https://github.com/abhishekgurjar-in).
+**Abhishek Gurjar** is a dedicated web developer passionate about creating practical and functional web applications. Check out more of his projects on [GitHub](https://github.com/abhishekboadgurjar).
 
 
 
